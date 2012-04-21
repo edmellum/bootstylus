@@ -1,0 +1,26 @@
+{
+  "author": "David Ed Mellum <david@edmellum.com> (edmellum.com)",
+  "name": "bootstylus",
+  "description": "Twitter Bootstrap using Stylus instead of the default Less.",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "github.com/edmellum/bootstylus.git"
+  },
+  "bugs" : {
+    "url": "http://github.com/edmellum/bootstylus/issues"
+  },
+  "licenses": [
+    {
+      "type": "Apache 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
