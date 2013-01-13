@@ -38,10 +38,12 @@ Stylus API
 ----------
 To get everything(except the responsive grid)
 `@import 'bootstylus'`
+
 Using individual parts:
-`@import 'bootstylus/grid'
+`@import 'bootstylus/grid`
+
 If you need the responsive grid:
-`@import 'bootstylus/responsive'
+`@import 'bootstylus/responsive`
 
 
 Todo
