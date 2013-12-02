@@ -1,24 +1,52 @@
-// UTILITY CLASSES
-// ---------------
+//
+// Utility classes
+// --------------------------------------------------
 
-// Quick floats
-.pull-right
-  float: right
 
-.pull-left
-  float: left
+// Floats
+// -------------------------
+
+.clearfix {
+  clearfix();
+}
+
+pull-right() {
+  float: right !important;
+}
+
+pull-left() {
+  float: left !important;
+}
+
+.pull-right {
+  pull-right()
+}
+
+.pull-left {
+  pull-left()
+}
 
 
 // Toggling content
-.hide
-  display: none
+// -------------------------
 
-.show
-  display: block
+.hide {
+  display: none !important;
+}
+.show {
+  display: block !important;
+}
+.invisible {
+  visibility: hidden;
+}
+.text-hide {
+  hide-text();
+}
 
 
-// Visibility
-.invisible
-  visibility: hidden
+// For Affix plugin
+// -------------------------
 
-
+.affix {
+  position: fixed;
+}
